@@ -1,0 +1,37 @@
+Reflections:
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+f19cb1b80fe27e938e4d72770ca0a42f25e99ecc b0678b161fcf74467ed3a63110557e3d6229cfa6
+
+git clone to clone repositry with history
+git diff first-id second-id compare changes
+To get colored diff output, run git config --global color.ui auto
+git log  will show a history of the recent commits press q to end view
+
+-------------------
+git checkout  make a previous commit as the current head temporarily
+still a lot to know about this command like:
+what happens to the commits newer than the commit checkedout bit this comman;
+----------------------
+
+Git command review
+Compare two commits, printing each line that is present in one commit but not the other.
+
+git diff will do this. It takes two arguments - the two commit ids to compare. 
+
+
+Make a copy of an entire Git repository, including the history, onto your own computer.
+
+git clone will do this. It takes one argument - the url of the repository to copy. 
+
+
+Temporarily reset all files in a directory to their state at the time of a specific commit.
+
+git checkout will do this. It takes one argument - the commit ID to restore. 
+
+
+Show the commits made in this repository, starting with the most recent.
+
+git log will do this. It doesn't take any arguments.
+
+
