@@ -1,3 +1,13 @@
 How can you use the staging area to make sure you have one commit per logical change?
 -we can keep changes temproraly at staging area till we make meaningful change then we commit it
 so that we do not create much commits
+
+
+run the command "git checkout "branch name" " to make commits on that branch not on the master brach.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- to try an experimental change without edit the original code 
+-to make another beta version of of the code 
+-to try to fix somthing and if it works then merge it with the master branch
+
+
