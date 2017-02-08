@@ -1,0 +1,3 @@
+How can you use the staging area to make sure you have one commit per logical change?
+-we can keep changes temproraly at staging area till we make meaningful change then we commit it
+so that we do not create much commits
