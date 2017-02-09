@@ -8,6 +8,30 @@ run the command "git checkout "branch name" " to make commits on that branch not
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 - to try an experimental change without edit the original code 
 -to make another beta version of of the code 
--to try to fix somthing and if it works then merge it with the master branch
+-to try to fix somthing and if it works then merge it with the master 
+
+
+The full command Caroline types to see the visual representation of the commit history is git log --graph --oneline master coins.
+
+How do the diagrams help you visualize the branch structure?
+a lot
+some notes:
+when checkout a commit it gets out of the series as an alno commit without a branch and there is no record of it , however if u want to save the changes
+or the commits made since that checkout u crate a new branch while the head is deattched.
+
+git show {commit id}   ,shows the diff btw this commit and its parent without kowing its parents id.
+git branch -d {branch name} , to delete a branch
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+the merge compine the existing lines before the merge and the new lines added by each branch ,,also delete the old lines 
+that were deleted in one of the branch we are merging .
+
+
+
+
+
+
 
 
