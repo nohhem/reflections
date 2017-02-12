@@ -4,15 +4,19 @@ local?
    when working with a team and they might need to they might need see my work to edit or add somthing to it.
    
 
-Why might you want to always pull changes manually rather than having Git
-automatically stay up-to-date with your remote repository?
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+forks : its a term mean copying one repo exist on github to from account to another .
+
+clones: copying a remote to local comp , or copy from local to local .
+branch:
+
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
